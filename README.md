@@ -119,5 +119,5 @@ TODO
 
 ## Authors
 
-* **Marek Mackiewicz** - [mackiewicz.marek@zabka.pl](https://github.com/lasagnu)
+* **Marek Mackiewicz** - [marej.dev@gmail.com](https://github.com/lasagnu)
 
