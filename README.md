@@ -107,7 +107,7 @@ Once the application is up and running, you should be able to generate the PDF w
 localhost:5000/dashboard/<dashboard_uid>
 ```
 
-You can view the generated raport once again by accessing the same /dashboard enpoint and passing the ID
+You can view the generated raport once again by accessing the same /dashboard enpoint and passing the ID generated previously
 
 ```
 example: localhost:5000/dashboard/1581089563394252
