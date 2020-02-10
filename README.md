@@ -115,7 +115,7 @@ example: localhost:5000/dashboard/1581089563394252
 
 ## Setting up the link in Grafana
 
-TODO
+![Example](https://i.imgur.com/e8P57hs.png)
 
 ## Authors
 
