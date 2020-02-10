@@ -40,6 +40,12 @@ Make it possible to execute wkhtmltopdf_setup.sh
 chmod +x wkhtmltopdf_setup.sh
 ```
 
+Execute the script and allow wkhtmltopdf to be installed locally
+
+```
+./wkhtmltopdf_setup.sh
+```
+
 Edit configuration file and provide the IP address and port of Grafana as well as the API key:
 
 ```
