@@ -25,7 +25,7 @@ CentOS 7, docker, docker-compose, Python3.6+, venv
 Clone repository
 
 ```
-git clone https://github.com/zabkapl/grafana-pdf-reporter/
+git clone https://github.com/lasagnu/grafana-pdf-reporter/
 ```
 
 Enter the dir with reporter:
