@@ -1,5 +1,6 @@
 import json
 import time
+import os
 
 from flask import Flask, send_from_directory, request, render_template, redirect, url_for
 
@@ -27,7 +28,6 @@ def generate_pdf(dashboard_uid):
         if pdf.dashboard_exists(dashboard_uid):
             timestamp = str(time.time()).replace(".", "")
             output_folder = Config.Application.generated_files_dir / timestamp
-            import os
             os.makedirs(output_folder)
             pdf_path = pdf.generate_PDF_from_dashboard(dashboard_uid, output_folder=output_folder,
                                                             range_time_from=range_time_from,
